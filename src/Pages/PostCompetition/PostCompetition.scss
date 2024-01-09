@@ -1,0 +1,42 @@
+.pc-container {
+    width: 60%;
+    min-width: 340px;
+    padding: 1rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    justify-content: center;
+    background: var(--gradn);
+
+    h2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: var(--pri);
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        border-style: none;
+        height: 40px;
+        border-radius: 4px;
+        padding: 10px;
+        resize: vertical;
+        font-size: 1rem;
+    }
+
+    >div p {
+        font-size: 1rem;
+    }
+
+    textarea {
+        transition: 0s;
+        height: 100px;
+    }
+}
+
+.pc {
+    align-items: center;
+    justify-content: center;
+}

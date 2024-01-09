@@ -1,0 +1,119 @@
+.lol {
+  display: flex;
+  justify-content: center;
+
+  .MainCardDiv {
+    display: flex;
+    justify-content: center;
+    background: var(--gradn);
+    margin: 1% 5%;
+    max-width: 1080px;
+    padding: 0;
+    border-radius: 10px;
+
+    .status {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      margin: 0.2rem;
+    }
+
+    .card-sec {
+      display: flex;
+      background-color: rgba(238, 238, 238, 0.4);
+      border-radius: 4px;
+      margin: 0.2rem;
+      justify-content: space-around;
+      margin: 0.6rem 0;
+
+      .pro {
+        border-right: 1px solid rgb(189, 189, 189);
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        div {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .card-data {
+      margin: 2rem;
+    }
+
+    .card-main {
+      h3 {
+        font-size: 2.4rem;
+        margin-bottom: -0.4rem;
+        color: var(--pri);
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+        color: var(--pri);
+
+        span {
+          color: var(--sec);
+          text-transform: capitalize;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    img {
+      width: 700px;
+      aspect-ratio: 1.4;
+      object-fit: cover;
+      margin: 1rem;
+    }
+
+    .card-img {
+      display: flex;
+      align-items: center;
+    }
+
+    .card-btn {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .Eventlogo {
+      width: 300px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .MainCardDiv {
+      flex-direction: column;
+
+      .card-main {
+        text-align: center;
+      }
+
+      .card-img {
+        align-self: center;
+      }
+
+      .card-sec {
+        flex-direction: column;
+
+        .pro {
+          border-bottom: 1px solid rgb(189, 189, 189);
+          border-right: none;
+        }
+      }
+    }
+  }
+}

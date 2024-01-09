@@ -1,0 +1,86 @@
+.App {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.Button {
+    background-color: rgb(122, 255, 122);
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+    margin: 0.6rem;
+    cursor: pointer;
+    color: black;
+}
+
+.apply {
+    background: rgb(168, 255, 168);
+    border: 1px solid rgb(122, 255, 122);
+
+    &:hover {
+        background: rgb(221, 255, 221);
+        border: 1px solid rgb(0, 255, 0);
+    }
+}
+
+
+
+.yellow {
+    background: rgb(239, 255, 168);
+    border: 1px solid rgb(255, 246, 122);
+
+    &:hover {
+        background: rgb(221, 255, 221);
+        border: 1px solid rgb(255, 217, 0);
+    }
+}
+
+.accepted{
+    background: rgb(168, 255, 168);
+    border: 1px solid rgb(122, 255, 122);
+}
+
+.cancel {
+    background: rgb(255, 150, 150);
+    border: 1px solid rgb(255, 150, 150);
+
+    &:hover {
+        border: 1px solid rgb(255, 0, 0);
+        background: rgb(255, 223, 223);
+    }
+}
+
+.rejected {
+    background: rgb(255, 150, 150);
+    border: 1px solid rgb(255, 150, 150);
+}
+
+.underline{
+    background: black;
+    height: 10px;
+    width: 100%;
+}
+
+.btn_reload{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+    margin:  auto;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover{
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        color: black;
+    }
+}
+
+h1{
+    text-align: center;
+}

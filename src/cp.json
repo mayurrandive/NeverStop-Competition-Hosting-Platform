@@ -1,0 +1,25 @@
+[
+  {
+    "id": "63cbada74033bfd6ae2ea25c",
+    "name": "Competition 1",
+    "teamSize": 6,
+    "description": "Test Competition ",
+    "creator": {
+      "id": "63cba139c22881df57714dba",
+      "fullName": "Himanshu",
+      "email": "himan@gmaixl.com",
+      "password": "$2b$10$INx0GNcP0gZxn1FlEDljw.8w53ToN1Yu7sXfmm9YsrnCgDrdBW2Pa",
+      "college": "IITKGP",
+      "about": "student",
+      "compCreated": [],
+      "createdAt": "2023-01-21T08:24:02.398Z",
+      "updatedAt": "2023-01-21T08:24:02.398Z",
+      "__v": 0
+    },
+    "applied_users": ["63cbbeaf7114b3f918c26a5d"],
+    "deadline": "1999-06-02T00:00:00.000Z",
+    "createdAt": "2023-01-21T09:11:41.605Z",
+    "updatedAt": "2023-01-21T10:30:08.045Z",
+    "__v": 1
+  }
+]

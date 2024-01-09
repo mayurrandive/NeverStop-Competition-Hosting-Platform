@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.nav {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+//   height: 4rem;
+  z-index: 10;
+  background: var(--gradn);
+
+
+  .nav_team {
+    font-size: 1.4rem;
+    vertical-align: center;
+    display: flex;
+    align-self: center;
+    margin: 0.6rem;
+    color: var(--pri);
+
+    &:hover {
+      color: var(--sec);
+      transform: scale(1.2);
+    }
+  }
+
+  .nav_container {
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    .nav_logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        border-radius: 20px;
+        margin: 0px;
+        width: 150px;
+        height: 60px;
+        object-fit: cover;
+      }
+
+      img:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.nav_links {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: var(--pri);
+      cursor: pointer;
+      padding: 4px 8px;
+      background: var(--grad);
+      border-radius: 4px;
+    }
+
+    a:after {
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: var(--color-sec);
+      width: 0;
+    }
+
+    a:hover:after {
+      width: 100%;
+      left: 0;
+      background: var(--color-font);
+    }
+  }
+
+  li:hover {
+    transform: translateY(5px);
+  }
+
+  li a:hover {
+    color: var(--sec);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav_links {
+    display: none;
+  }
+
+  .nav_blur {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+  }
+
+  .switch {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (min-width: 1370px) {
+  .nav_links {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .switch {
+    transform: scale(0.8);
+  }
+}

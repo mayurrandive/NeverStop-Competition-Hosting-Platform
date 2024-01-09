@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 79e72dad3a06114fd0f8c075dda77b0b52885af8 Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692641510 +0530	commit (initial): first commi
+79e72dad3a06114fd0f8c075dda77b0b52885af8 0000000000000000000000000000000000000000 Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692641533 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 79e72dad3a06114fd0f8c075dda77b0b52885af8 Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692641533 +0530	Branch: renamed refs/heads/master to refs/heads/main
+79e72dad3a06114fd0f8c075dda77b0b52885af8 ac6c133d5812e41b1b884ae6612e80ef23ea598c Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692797159 +0530	commit: new update 1.0
+ac6c133d5812e41b1b884ae6612e80ef23ea598c 442cd232e56f5f1803873b483758cf8af48e523a Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692803869 +0530	commit: backend url added
+442cd232e56f5f1803873b483758cf8af48e523a a0bcc9ddafa50161c80f98b61acaf97fbee1c6e5 Sahil Keshao Lede <98254859+sahillede940@users.noreply.github.com> 1692813286 +0530	commit: added cors
+a0bcc9ddafa50161c80f98b61acaf97fbee1c6e5 b2cd7a6af3c1cdd520e490a7871e5d89a317d760 sahillede940 <sahillede940@gmail.com> 1697137603 +0530	commit: connected with DRF backend 1
+b2cd7a6af3c1cdd520e490a7871e5d89a317d760 90327848629d267234cde45c956ed2788883da82 sahillede940 <sahillede940@gmail.com> 1697318183 +0530	commit: fixed UI and integrated with DRF

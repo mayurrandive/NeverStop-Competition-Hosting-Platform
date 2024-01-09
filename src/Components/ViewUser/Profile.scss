@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.profile-card {
+    width: 80%;
+    background-color: #51458b;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.profile {
+
+    .profile-val {
+        width: 100%;
+        border-style: none;
+        height: 40px;
+        border-radius: 6px;
+        margin: 5px auto;
+        padding: 10px;
+        resize: vertical;
+        background: rgba(255, 255, 255, 0.4);
+    }
+}
+
+
+.login-box {
+    margin: 1rem auto;
+    display: flex;
+
+    .flex-r,
+    .flex-c {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .flex-c {
+        flex-direction: column;
+    }
+
+}
+
+.login-box .login-box .flex-r {
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.login-box .container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background: #ffffff;
+}
+
+.login-box .login-text {
+    background: var(--gradn);
+    width: 30%;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.login-box .logo {
+    margin-bottom: 20px;
+}
+
+.login-box .logo span,
+.logo span i {
+    font-size: 25px;
+    color: #0d8aa7;
+}
+
+.login-box .login-text h1 {
+    font-size: 25px;
+}
+
+.login-box .login-text p {
+    font-size: 15px;
+    color: #000000b2;
+}
+
+.login-box form {
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.login-box .input-box {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.login-box .label {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.login-box .input {
+    background-color: #fffbfb;
+    margin: 0px;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+
+    &:focus {
+        background: red;
+    }
+}
+
+.login-box input {
+    border: none;
+    outline: none;
+    margin: 10px 5px;
+    background-color: #fffbfb;
+    flex: 1;
+}
+
+.login-box .input i {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.login-box .check span {
+    color: #000000b2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.login-box .btn {
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: var(--grad);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--pri);
+}
+
+.login-box .btn:hover {
+    transform: translateY(-2px);
+}
+
+.login-box .extra-line {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login-box .extra-line a {
+    color: #0095b6;
+}
+
+/* CSS for error para since tailwind was not working due to conflicts */
+.red-para {
+    color: red;
+}
+
+.cursorError {
+    cursor: pointer;
+}

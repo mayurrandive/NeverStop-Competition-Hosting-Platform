@@ -1,0 +1,11 @@
+.StatusMainDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // border-style: solid;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
